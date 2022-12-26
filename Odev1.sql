@@ -17,7 +17,7 @@ WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_rate = 28.9
 SELECT last_name FROM customer
 WHERE first_name = 'Mary';
 
---(cevap = 'Sm,th')
+--(cevap = 'Smith')
 
 --5.Sorgu:
 
