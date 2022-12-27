@@ -1,25 +1,25 @@
-1.Sorgu:
+--1.Sorgu:
 
 SELECT DISTINCT replacement_cost FROM film;
 
 
-2.Sorgu:
+--2.Sorgu:
 
 SELECT COUNT(DISTINCT replacement_cost) FROM film;
 
 
-3.Sorgu:
+--3.Sorgu:
 
 SELECT COUNT(*) FROM film
 WHERE title LIKE 'T%' AND rating = 'G';
 
 
-4.Sorgu:
+--4.Sorgu:
 
 SELECT COUNT(*) FROM country
 WHERE country LIKE '_____';
 
-5.Sorgu:
+--5.Sorgu:
 
 
 SELECT COUNT(*) FROM city
