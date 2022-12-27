@@ -18,4 +18,4 @@ WHERE rental_rate = 0.99;
 --4.Sorgu
 
 SELECT COUNT(DISTINCT replacement_cost) FROM film
-WHERE length > 50;
+WHERE length > 150;
